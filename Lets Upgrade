@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main{   
+public static void main(String args[]){
+Scanner in=new Scanner(System.in);
+System.out.println("Enter the value of a: ");
+int a=in.nextInt();
+System.out.println("Enter the value of b: ");
+int b=in.nextInt();
+System.out.println("Enter the value of c: ");
+int c=in.nextInt();
+
+if(a>b&&a>c)
+System.out.println("The Greatest number is:"+a);
+if(b>c&&b>a)
+System.out.println("The Greatest number is:"+b);
+if(c>a&&c>b)
+System.out.println("The Greatest number is:"+c);
+}
+}
